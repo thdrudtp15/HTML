@@ -1,0 +1,40 @@
+body {
+    background:  #f7f9fc ;
+}
+p {
+    margin: 0;
+}
+
+.fontblue {
+    color : #6fbaf8;
+}
+.fsize{
+    font-size: 150px;
+}
+
+.white-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #eee;
+    margin-top: 20px;
+}
+
+.cap {
+    background: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+
+
+
+@media screen and (max-width: 768px ){
+    .displays {
+        display: none;
+    }
+    
+}
